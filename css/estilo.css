@@ -9,3 +9,23 @@
     --primary-color: #0B0B0F;
     --primary-bg-color: #E9E9E9;
 }
+
+html [data-theme='light'] .brand-logo{
+    filter: invert(1);
+}
+
+html [data-theme='light'] .tecnologias-logo{
+    filter: invert(80%);
+}
+
+/*
+Reset do CSS: Para padronizar a visualização em todos os navegadores
+*/
+
+*{
+    margin: 0;                  /*   Margem: Distância do elemento até a borda   */
+    padding: 0;                 /*   Espaçamento: Distância do margem até o elemento   */
+    box-sizing: border-box;     
+    vertical-align: baseline;
+    list-style: none;           /*   Estilo da lista: Modifica o marcador da lista   */
+}
