@@ -55,8 +55,8 @@ body{
 }
 
 #header{
-    display: flex;
-    flex-flow: row wrap;
+display: flex;
+flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -68,4 +68,9 @@ body{
     display: flex;
     justify-content: flex-end;
     
+}
+
+.header-logo .logo{
+    width: 3.25rem;
+    height: 3.25rem;
 }
