@@ -52,9 +52,49 @@ body{
     color: var(--text-color);
 }
 
+a{
+    text-decoration: none;              /*   Remove o underline   */
+    color: var(--text-color);
+}
+
+a:hover{
+    color: var(--primary-color);        /*   Modifica a cor do texto, ao passar com o mouse em cima do elemento   */
+}
+
+i{
+    color: var(--icon-color);
+}
+
+b{
+    font-weight: 400;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.4rem;
+}
+
+h3{
+    font-size: 1.55rem;
+    text-align: left;
+}
+
+h4{
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 1.15rem;
+    text-align: left;
+}
+
 #header{
-display: flex;
-flex-flow: row wrap;
+    display: flex;                      /*   Elementos são colcoados em caixas   */
+    flex-flow: row wrap;                /*   Elementos são organizados em colunas, permitindo quebra de linha   */
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -83,6 +123,7 @@ flex-flow: row wrap;
     display: flex;
     align-items: center;
     background: var(--primary-bg-color);
+    gap: 1rem;
 }
 
 .menu-item{
@@ -96,11 +137,11 @@ flex-flow: row wrap;
 }
 
 .menu-mobile{
-    width: 100vw;           /*   VW: ViewPort Width   */
+    width: 100vw;                       /*   VW: ViewPort Width   */
     position: fixed;
-    bottom: 0;
+    bottom: 0;                          /*   Fixa a barra de navegação na parte de baixo da tela   */
     justify-content: space-between;
-    border-top: 1px solid;
+    border-top: 1px transparent;
 }
 
 .menu-mobile .menu-link{
