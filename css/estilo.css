@@ -92,6 +92,21 @@ h4{
     text-align: left;
 }
 
+h1, h2, h3{
+    font-family: 'League Spartan', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: var(--title-color);
+    font-weight: 200;
+}
+
+p, span, li{
+    font-size: 1rem;
+}
+
+p{
+    text-align: justify;
+}
+
 #header{
     display: flex;                      /*   Elementos são colcoados em caixas   */
     flex-flow: row wrap;                /*   Elementos são organizados em colunas, permitindo quebra de linha   */
@@ -163,4 +178,32 @@ h4{
 
 .menu.icon{
     font-size: 1.5rem;
+}
+
+.menu-text{
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+
+/*
+.header-nav{
+    display: none;
+}
+*/
+
+.menu-principal{
+    gap: 1rem;
+}
+
+.menu-social{
+    gap: 1rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    width: 100%;
+    
 }
