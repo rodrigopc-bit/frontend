@@ -205,5 +205,11 @@ p{
     align-items: center;
     gap: 0.625rem;
     width: 100%;
-    
+    background: transparent;
+    border-radius: 3rem;
+    border: none;
+    padding: 0.875rem 1.5rem;
+    transition: ease-in-out .3s;
+    cursor: pointer;
+    color: var(--primary-color);
 }
