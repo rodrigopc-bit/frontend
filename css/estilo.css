@@ -152,8 +152,9 @@ p{
 }
 
 .menu-mobile{
+    display: none;                      /*   Solução temporária   */
     width: 100vw;                       /*   VW: ViewPort Width   */
-    /*position: fixed;*/
+    position: fixed;
     bottom: 0;                          /*   Fixa a barra de navegação na parte de baixo da tela   */
     justify-content: space-between;
     border-top: 1px transparent;
